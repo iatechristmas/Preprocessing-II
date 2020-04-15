@@ -269,8 +269,16 @@ nav a {
   padding-left: 0;
 }
 .home .content-destination {
-  width: 100%;
+  width: 70%;
   margin: 0 auto 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (max-width:500px) {
+  .home .content-destination {
+    width: 100%;
+  }
 }
 .home .content-destination img {
   border-radius: 10px;
@@ -297,7 +305,7 @@ nav a {
   }
 }
 .home .btn {
-  background-color: #18705c;
+  background-color: #179189;
   width: 200px;
   color: white;
   font-size: 20px;

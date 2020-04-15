@@ -4,6 +4,7 @@
   @media @mobile{
     width:400px;
   }
+
   header{
     display:flex;
     justify-content:space-between;
@@ -78,8 +79,15 @@
   }
 
   .content-destination {
-    width: 100%;
+    width: 70%;
     margin: 0 auto 30px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+
+    @media @mobile{
+      width: 100%;
+    }
 
     img {
       border-radius: 10px;
@@ -108,7 +116,7 @@
   }
 
   .btn{
-    .mybutton(#18705c, white, 20px)
+    .mybutton(#179189, white, 20px)
   }
 
 }// home
